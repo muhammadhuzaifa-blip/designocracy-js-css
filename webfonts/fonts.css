@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Medium.woff2') format('woff2'),
+        url('SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Regular.woff2') format('woff2'),
+        url('SFProDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Bold.woff2') format('woff2'),
+        url('SFProDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.weight-100 {
+    font-weight: 100;
+}
+
+.weight-200 {
+    font-weight: 200;
+}
+
+.weight-300 {
+    font-weight: 300;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.weight-800 {
+    font-weight: 800;
+}
+
+.weight-900 {
+    font-weight: 900;
+}
