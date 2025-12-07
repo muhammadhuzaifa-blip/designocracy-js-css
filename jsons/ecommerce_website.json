@@ -3,17 +3,20 @@
         {
             "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp"
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
+            "price": "$499"
         },
         {
             "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp"
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
+            "price": "$499"
         },
         {
             "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_3.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_3.webp"
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_3.webp",
+            "price": "$499"
         }
     ]
 }
