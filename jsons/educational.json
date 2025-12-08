@@ -17,6 +17,36 @@
             "title": "Educational Website",
             "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mobile_salon.jpg",
             "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
+            "title": "Educational Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sondors.jpg",
+            "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
+            "title": "Educational Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mind_made.jpg",
+            "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_3.webp",
+            "title": "Educational Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mobile_salon.jpg",
+            "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
+            "title": "Educational Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sondors.jpg",
+            "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
+            "title": "Educational Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mind_made.jpg",
+            "price": "$499"
         }
     ]
 }

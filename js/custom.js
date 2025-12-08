@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         const col = document.createElement("div");
 
                         // ✅ 3 images per row
-                        col.className = "col-xl-4 col-lg-4 col-md-6 col-12 mb-md-0 mb-4";
+                        col.className = "col-xl-3 col-lg-4 col-md-6 col-12 mb-md-0 mb-4";
 
                         // ✅ NO TITLE / PRICE UNDER IMAGE
                         col.innerHTML = `
