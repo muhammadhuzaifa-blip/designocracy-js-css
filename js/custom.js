@@ -118,6 +118,7 @@ $('.hz_radios_card').on('click', function () {
   }, 1000); // 1 second delay
 });
 
+
 // increase progress bar width on each step
 $('.inner_form_inner_sec1 .hz_radios_card').on('click', function(){
     $('#hz_header .bar_fill').css('width' , '25%');
