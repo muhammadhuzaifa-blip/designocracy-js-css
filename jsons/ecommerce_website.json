@@ -1,51 +1,51 @@
 {
     "portfolio": [
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sondors_thumb.webp",
             "title": "Ecommerce Website",
             "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sondors.jpg",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/chill_caterpillar_thumb.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mind_made.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/chill_caterpillar.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_3.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/elite_nutrition_thumb.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mobile_salon.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/elite_nutrition.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/hair_control_studio_thumb.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sondors.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/hair_control_studio.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/inspire_health_and_fitness_thumb.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mind_made.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/inspire_health_and_fitness.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_3.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/auntie_nens_stuff_thumb.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mobile_salon.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/auntie_nens_stuff.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/foureyedbooks_thumb.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sondors.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/foureyedbooks.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/adaptonic_thumb.webp",
             "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mind_made.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/adaptonic.webp",
             "price": "$499"
         }
     ]
