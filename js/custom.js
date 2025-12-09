@@ -12,22 +12,19 @@ $(".hz-inquiry-form").slick({
 document.addEventListener("DOMContentLoaded", function () {
     const radios = document.querySelectorAll('input[type="radio"][name="radioDefault"]');
     const portfolioContainer = document.getElementById("selected_portfolios");
-    const siteTypeEl = document.getElementById("site_type");   // ✅ title target
-    const sitePriceEl = document.getElementById("site_price"); // ✅ price target
+    const siteTypeEl = document.getElementById("site_type");
+    const sitePriceEl = document.getElementById("site_price");
 
     radios.forEach((radio) => {
         radio.addEventListener("change", function () {
 
-            // ✅ Remove selected class from all cards
             document.querySelectorAll(".hz_radios_card").forEach(card => {
                 card.classList.remove("selected");
             });
 
-            // ✅ Add selected class to current card
             const card = this.closest(".hz_radios_card");
             card.classList.add("selected");
 
-            // ✅ Get JSON URL
             const jsonInput = card.querySelector(".website_port_json");
             const jsonUrl = jsonInput.value;
 
@@ -36,40 +33,41 @@ document.addEventListener("DOMContentLoaded", function () {
             fetch(jsonUrl)
                 .then(response => response.json())
                 .then(data => {
-                    console.log("✅ Portfolio JSON Data:", data); // DEBUG
+                    console.log("Portfolio JSON Data:", data);
 
                     portfolioContainer.innerHTML = "";
 
                     if (!data.portfolio || !Array.isArray(data.portfolio)) {
-                        console.error("❌ Invalid portfolio JSON structure");
+                        console.error("Invalid portfolio JSON structure");
                         return;
                     }
 
-                    // ✅ SET TITLE & PRICE FROM FIRST ITEM
                     if (data.portfolio.length > 0) {
                         const firstItem = data.portfolio[0];
 
-                        if (siteTypeEl) {
-                            siteTypeEl.textContent = firstItem.title;
-                        }
-
-                        if (sitePriceEl) {
-                            sitePriceEl.textContent = firstItem.price;
-                        }
+                        if (siteTypeEl) siteTypeEl.textContent = firstItem.title;
+                        if (sitePriceEl) sitePriceEl.textContent = firstItem.price;
                     }
 
-                    // ✅ LOOP PORTFOLIOS (3 PER ROW)
-                    data.portfolio.forEach((item) => {
+                    // ---- LOOP PORTFOLIO ITEMS ----
+                    data.portfolio.forEach((item, index) => {
                         const col = document.createElement("div");
 
-                        // ✅ 3 images per row
                         col.className = "col-xl-3 col-lg-4 col-md-6 col-12 mb-md-0 mb-4";
 
-                        // ✅ NO TITLE / PRICE UNDER IMAGE
                         col.innerHTML = `
-                            <div class="portfolio_card h-100">
-                                <div data-bs-port="${item.popup_image}" target="_blank" class="d-block" data-bs-toggle="modal" data-bs-target="#portfolio_image_modal">
-                                    <img src="${item.thumbnail}" alt="Portfolio Image" class="img-fluid w-100 rounded">
+                            <div class="portfolio_card h-100 position-relative overflow-hidden">
+
+                                <!-- CHECKBOX -->
+                                <input type="checkbox" class="portfolio_check" data-port-id="${index}" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:5;opacity:0;">
+                                <div class="checked_overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center opacity-0">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                </div>
+
+
+                                <!-- IMAGE OPENING MODAL -->
+                                <div data-bs-port="${item.popup_image}" data-port-id="${index}" class="d-block" data-bs-toggle="modal" data-bs-target="#portfolio_image_modal">
+                                    <img src="${item.thumbnail}" class="img-fluid w-100 rounded">
                                 </div>
                             </div>`;
 
@@ -77,31 +75,55 @@ document.addEventListener("DOMContentLoaded", function () {
                     });
                 })
                 .catch(error => {
-                    console.error("❌ Error loading JSON:", error);
+                    console.error("Error loading JSON:", error);
                 });
         });
     });
 });
 
 
-const portfolio_image_modal = document.getElementById('portfolio_image_modal')
+// ----------------------------------------------------------------------------------
+//  MODAL LOGIC (working with your HTML)
+// ----------------------------------------------------------------------------------
+
+let current_port_id = null;
+
+const portfolio_image_modal = document.getElementById('portfolio_image_modal');
+
 if (portfolio_image_modal) {
     portfolio_image_modal.addEventListener('show.bs.modal', event => {
-        // Button that triggered the modal
-        const button = event.relatedTarget
-        // Extract info from data-bs-* attributes
-        const port_img_url = button.getAttribute('data-bs-port')
-        // If necessary, you could initiate an Ajax request here
-        // and then do the updating in a callback.
 
-        // Update the modal's content.
-        // const modalTitle = portfolio_image_modal.querySelector('.modal-title')
-        const modalBodyInput = portfolio_image_modal.querySelector('#portfolio_image_modal_img')
+        const button = event.relatedTarget;
 
-        // modalTitle.textContent = `New message to ${port_img_url}`
-        modalBodyInput.src = port_img_url
-    })
+        const port_img_url = button.getAttribute('data-bs-port');
+        current_port_id = button.getAttribute('data-port-id');  // Save ID of clicked image
+
+        const modalBodyInput = portfolio_image_modal.querySelector('#portfolio_image_modal_img');
+        modalBodyInput.src = port_img_url;
+    });
 }
+
+
+// ----------------------------------------------------------------------------------
+//  SELECT BUTTON INSIDE MODAL
+// ----------------------------------------------------------------------------------
+
+document.addEventListener("click", function (e) {
+
+    if (e.target.classList.contains("select_port_btn")) {
+
+        if (current_port_id === null) return;
+
+        const checkbox = document.querySelector(
+            `.portfolio_check[data-port-id="${current_port_id}"]`
+        );
+
+        if (checkbox) {
+            checkbox.checked = true;
+            checkbox.closest(".portfolio_card").classList.add("selected_ref");
+        }
+    }
+});
 
 
 $('.hz_slick_btn_prev').on('click', function(){
@@ -117,7 +139,6 @@ $('.hz_radios_card').on('click', function () {
     $('.hz-inquiry-form button.slick-next.slick-arrow').trigger('click');
   }, 1000); // 1 second delay
 });
-
 
 // increase progress bar width on each step
 $('.inner_form_inner_sec1 .hz_radios_card').on('click', function(){
