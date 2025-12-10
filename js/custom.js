@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="portfolio_card h-100 position-relative overflow-hidden">
 
                                 <!-- CHECKBOX -->
-                                <input type="checkbox" name="portfolio_check[]" value="0" class="portfolio_check" data-port-id="${index}" value="${item.popup_image}" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:5;opacity:0;">
+                                <input type="checkbox" name="portfolio_check[]" class="portfolio_check" data-port-id="${index}" value="${item.popup_image}" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:5;opacity:0;">
                                 <div class="checked_overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center opacity-0">
                                     <i class="fa-regular fa-circle-check"></i>
                                 </div>
