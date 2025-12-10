@@ -204,6 +204,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 // NEXT SLIDE
                 document.querySelector(".hz-inquiry-form button.slick-next.slick-arrow")
                     ?.click();
+                // Set progress bar to 100%
+                document.querySelector("#hz_header .bar_fill").style.width = "100%";
 
                 form.reset();
             } else {
