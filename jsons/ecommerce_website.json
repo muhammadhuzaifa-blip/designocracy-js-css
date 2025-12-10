@@ -35,18 +35,6 @@
             "title": "Ecommerce Website",
             "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/auntie_nens_stuff.webp",
             "price": "$499"
-        },
-        {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/foureyedbooks_thumb.webp",
-            "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/foureyedbooks.webp",
-            "price": "$499"
-        },
-        {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/adaptonic_thumb.webp",
-            "title": "Ecommerce Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/adaptonic.webp",
-            "price": "$499"
         }
     ]
 }

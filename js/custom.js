@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     data.portfolio.forEach((item, index) => {
                         const col = document.createElement("div");
 
-                        col.className = "col-xl-3 col-lg-4 col-md-6 col-12 mb-md-0 mb-4";
+                        col.className = "col-lg-4 col-md-6 col-12 mb-md-0 mb-4";
 
                         col.innerHTML = `
                             <div class="portfolio_card h-100 position-relative overflow-hidden">
