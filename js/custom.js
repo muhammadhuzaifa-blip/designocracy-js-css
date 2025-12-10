@@ -168,3 +168,45 @@ $('.inner_form_inner_sec3 .hz_slick_btn_prev').on('click', function(){
 $('.inner_form_inner_sec4 .hz_slick_btn_prev').on('click', function(){
     $('#hz_header .bar_fill').css('width' , '50%');
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.getElementById("hzInquiryForm");
+
+    if (!form) return;
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        let fd = new FormData(form);
+
+        fetch(form.action, {
+            method: "POST",
+            headers: {
+                "X-Requested-With": "XMLHttpRequest",
+                "X-CSRF-TOKEN": form.querySelector('input[name="_token"]').value
+            },
+            body: fd
+        })
+        .then(res => res.json())
+        .then(data => {
+
+            if (data.success) {
+                hzToast(data.message, "success");
+
+                // NEXT SLIDE
+                document.querySelector(".hz-inquiry-form button.slick-next.slick-arrow")
+                    ?.click();
+
+                form.reset();
+            } else {
+                hzToast(data.message || "Something went wrong", "error");
+            }
+
+        })
+        .catch(() => {
+            hzToast("Server error occurred", "error");
+        });
+    });
+
+});
