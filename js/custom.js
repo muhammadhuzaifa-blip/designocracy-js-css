@@ -87,7 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // ----------------------------------------------------------------------------------
 
 let current_port_id = null;
-
 const portfolio_image_modal = document.getElementById('portfolio_image_modal');
 
 if (portfolio_image_modal) {
@@ -96,10 +95,10 @@ if (portfolio_image_modal) {
         const button = event.relatedTarget;
 
         const port_img_url = button.getAttribute('data-bs-port');
-        current_port_id = button.getAttribute('data-port-id');  // Save ID of clicked image
+        current_port_id = button.getAttribute('data-port-id');
 
-        const modalBodyInput = portfolio_image_modal.querySelector('#portfolio_image_modal_img');
-        modalBodyInput.src = port_img_url;
+        const modalImage = portfolio_image_modal.querySelector('#portfolio_image_modal_img');
+        modalImage.src = port_img_url;
     });
 }
 
@@ -119,8 +118,16 @@ document.addEventListener("click", function (e) {
         );
 
         if (checkbox) {
+
             checkbox.checked = true;
             checkbox.closest(".portfolio_card").classList.add("selected_ref");
+
+            // ************* FIX: Set checkbox value to modal image URL *************
+            const modalImg = document.querySelector("#portfolio_image_modal_img");
+            if (modalImg && modalImg.src) {
+                checkbox.value = modalImg.src;
+            }
+            // *************************************************************************
         }
     }
 });
