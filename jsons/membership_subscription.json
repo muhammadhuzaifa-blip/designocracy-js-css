@@ -1,15 +1,15 @@
 {
     "portfolio": [
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/marshal_thumb.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/kravmagaotown_thumb.webp",
             "title": "Membership / Subscription Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/marshal.webp",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/kravmagaotown.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/scuba_discovery_thumb.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/solopreneurhub_thumb.webp",
             "title": "Membership / Subscription Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/scuba_discovery.webp",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/solopreneurhub.webp",
             "price": "$499"
         }
     ]
