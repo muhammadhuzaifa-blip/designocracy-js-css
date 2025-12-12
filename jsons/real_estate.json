@@ -1,51 +1,39 @@
 {
     "portfolio": [
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/gabeleibowitz_thumb.webp",
             "title": "Real Estate Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sondors.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/gabeleibowitz.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/rockystark_thumb.webp",
             "title": "Real Estate Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mind_made.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/rockystark.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_3.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mcanniffrealestate_thumb.webp",
             "title": "Real Estate Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mobile_salon.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mcanniffrealestate.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/redfin_thumb.webp",
             "title": "Real Estate Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sondors.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/redfin.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/elliman_thumb.webp",
             "title": "Real Estate Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mind_made.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/elliman.webp",
             "price": "$499"
         },
         {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_3.webp",
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mls_thumb.webp",
             "title": "Real Estate Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mobile_salon.jpg",
-            "price": "$499"
-        },
-        {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_1.webp",
-            "title": "Real Estate Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sondors.jpg",
-            "price": "$499"
-        },
-        {
-            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/ecommerce_website_2.webp",
-            "title": "Real Estate Website",
-            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mind_made.jpg",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mls.webp",
             "price": "$499"
         }
     ]
