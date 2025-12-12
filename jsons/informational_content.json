@@ -29,6 +29,12 @@
             "title": "Informational / Content Website",
             "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/backhouseoffice.webp",
             "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/44northinc_thumb.webp",
+            "title": "Informational / Content Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/44northinc.webp",
+            "price": "$499"
         }
     ]
 }
