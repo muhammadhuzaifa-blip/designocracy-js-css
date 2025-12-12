@@ -150,30 +150,37 @@ $('.hz_radios_card').on('click', function () {
 // increase progress bar width on each step
 $('.inner_form_inner_sec1 .hz_radios_card').on('click', function(){
     $('#hz_header .bar_fill').css('width' , '25%');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 $('.inner_form_inner_sec2 .hz_slick_btn_next').on('click', function(){
     $('#hz_header .bar_fill').css('width' , '50%');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 $('.inner_form_inner_sec3 .hz_slick_btn_next').on('click', function(){
     $('#hz_header .bar_fill').css('width' , '75%');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 $('.inner_form_inner_sec4 .hz_slick_btn_next').on('click', function(){
     $('#hz_header .bar_fill').css('width' , '100%');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 $('.inner_form_inner_sec2 .hz_slick_btn_prev').on('click', function(){
     $('#hz_header .bar_fill').css('width' , '0%');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 $('.inner_form_inner_sec3 .hz_slick_btn_prev').on('click', function(){
     $('#hz_header .bar_fill').css('width' , '25%');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 $('.inner_form_inner_sec4 .hz_slick_btn_prev').on('click', function(){
     $('#hz_header .bar_fill').css('width' , '50%');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
