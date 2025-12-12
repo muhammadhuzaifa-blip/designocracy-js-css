@@ -5,6 +5,36 @@
             "title": "Event Website",
             "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/eth_bali.jpg",
             "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sima_thumb.webp",
+            "title": "Event Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/sima.webp",
+            "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/futurefest_thumb.webp",
+            "title": "Event Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/futurefest.webp",
+            "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mountainsonstage_thumb.webp",
+            "title": "Event Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/mountainsonstage.webp",
+            "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/thecedar_thumb.webp",
+            "title": "Event Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/thecedar.webp",
+            "price": "$499"
+        },
+        {
+            "thumbnail": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/vorstadtsounds_thumb.webp",
+            "title": "Event Website",
+            "popup_image": "https://cdn.jsdelivr.net/gh/muhammadhuzaifa-blip/designocracy-js-css@main/images/portfolio/vorstadtsounds.webp",
+            "price": "$499"
         }
     ]
 }
