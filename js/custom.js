@@ -219,3 +219,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+
+// Select your scrollable modal body
+const modalScrollable = document.querySelector('#portfolio_image_modal .modal-dialog-scrollable .modal-body');
+
+if (modalScrollable) {
+    // Allow scrolling inside this element
+    modalScrollable.addEventListener('wheel', function (e) {
+        const scrollTop = modalScrollable.scrollTop;
+        const scrollHeight = modalScrollable.scrollHeight;
+        const height = modalScrollable.clientHeight;
+
+        const isScrollingUp = e.deltaY < 0;
+        const isScrollingDown = e.deltaY > 0;
+
+        // If scrolling UP and already at top → let event bubble to Lenis
+        if (isScrollingUp && scrollTop === 0) return;
+
+        // If scrolling DOWN and already at bottom → let event bubble to Lenis
+        if (isScrollingDown && scrollTop + height >= scrollHeight) return;
+
+        // Otherwise prevent Lenis from taking over
+        e.stopPropagation();
+    }, { passive: false });
+}
